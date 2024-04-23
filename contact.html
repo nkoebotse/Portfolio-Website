@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Nkoebotse Elliot Sekgobela</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="navbar-brand"><img src="log.png" alt="Logo" style="width:50px;"></div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span the="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h1>Contact Us</h1>
+    <form id="contactForm" action="https://formspree.io/f/xvoedwvv" method="POST">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="surname">Surname</label>
+            <input type="text" class="form-control" id="surname" name="surname" placeholder="Enter your surname" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<footer class="site-footer bg-dark text-white mt-4">
+    <div class="container text-center py-5">
+        <div class="row">
+            <div class="col">
+                <p>32A Devenish Street, Polokwane, Central</p>
+                <p>Email: <a href="mailto:elliot.sekgobela@gmail.com" class="text-light">elliot.sekgobela@gmail.com</a></p>
+                <a href="https://linkedin.com/in/elliot-sekgobela-ab924819a" target="_blank" class="text-light"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/nkoebotse/fachilis" target="_blank" class="text-light"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="contact.js"></script>
+</body>
+</html>

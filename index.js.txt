@@ -1,0 +1,22 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const bioContent = `
+        <h1>About Me</h1>
+        <p>Nkoebotse Elliot Sekgobela is a Mobile Technician, IT Systems Developer, Event Organizer, Poultry Farmer, and Youth Empowerment Advocate.</p>
+    `;
+
+    const educationContent = `
+        <h1>Education</h1>
+        <p>Bachelor's Degree in Computer Science from Harvard University, expected 2025.</p>
+        <p>Diploma from Jane Furse Comprehensive School, 2014.</p>
+    `;
+
+    const projectsContent = `
+        <h1>Projects</h1>
+        <p>Project A: An innovative project focusing on...</p>
+        <p>Project B: A community-driven project aimed at...</p>
+    `;
+
+    document.getElementById('bio').innerHTML = bioContent;
+    document.getElementById('education').innerHTML = educationContent;
+    document.getElementById('projects').innerHTML = projectsContent;
+});

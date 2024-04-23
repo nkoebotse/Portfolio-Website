@@ -6,148 +6,75 @@
     <title>Nkoebotse Elliot Sekgobela's Portfolio</title>
     <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
 
-<nav class="navbar">
-    <div class="logo">Elliot</div>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-    </ul>
-</nav>
-<br>
-<!-- Banner Section -->
-<div class="banner">
-    <div class="banner-content">
-        <div class="text">
-            <h1>Nkoebotse Elliot Sekgobela</h1>
-            <p>Mobile Technician | IT Systems Developer | Event Organizer | Poultry Farmer | Youth Empowerment Advocate</p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="#"><img src="log.png" alt="Elliot Logo" style="width:50px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="about.html">About Me</a>
+            <a class="nav-item nav-link" href="contact.html">Contact Us</a>
         </div>
-        <div class="image">
-            <img id="profile-image" src="e.png" alt="Nkoebotse Elliot Sekgobela">
+    </div>
+</nav>
+
+<div class="banner">
+    <div class="banner-content d-flex justify-content-between align-items-center">
+        <div id="bio" class="text">
+            <!-- Dynamic Bio inserted by JavaScript -->
+        </div>
+        <div class="video">
+            <video width="320" height="240" controls autoplay muted>
+                <source src="2887463-hd_1280_720_25fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
     </div>
 </div>
 
-
-
 <section id="about" class="about-section">
-    <h2>About Me ,click below </h2>
+    <h2>About Me, click below for details</h2>
     <div class="about-grid">
         <div class="about-details">
-            <!-- Experience Section -->
-            <a href="#experience" class="category-link">Experience</a>
-            <div id="experience" class="details">
-                <p>IT Systems Developer at HCLS - Human Capital Learning Solutions (Jun 2023 – Feb 2024)</p>
-                <p>Salesperson at Nedbank</p>
-                <p>Mobile Technician at HCLS - Human Capital Learning Solutions (Feb 2023 – Nov 2023)</p>
-                <a href="#_" class="close">Close</a>
-            </div>
-
-            <!-- Education Section -->
-            <a href="#education" class="category-link">Education</a>
-            <div id="education" class="details">
-                <p>Bachelor's Degree, Computer Science, Harvard University (2023 – 2025)</p>
-				<p>jane furse comprehensive school (2014)
-                <a href="#_" class="close">Close</a>
-            </div>
-
-            <!-- Licenses & Certifications Section -->
-            <a href="#certifications" class="category-link">Licenses & Certifications</a>
-            <div id="certifications" class="details">
-                <p>Career Essentials in Generative AI by Microsoft and LinkedIn - Microsoft (Issued Sep 2023)</p>
-                <!-- Additional certifications -->
-                <p>Cyber Threat Management - Cisco (Issued Aug 2023)</p>
-                <p>Endpoint Security - Cisco (Issued Aug 2023)</p>
-                <p>Introduction to Cybersecurity - Cisco (Issued Aug 2023)</p>
-                <p>Computer Hardware Basics - Cisco (Issued Aug 2023)</p>
-                <p>Python Essentials 2 - Cisco (Issued Aug 2023)</p>
-                <p>Python Essentials 1 - Cisco (Issued Aug 2023)</p>
-                <p>JavaScript Essentials 1 - Cisco (Issued Aug 2023)</p>
-                <p>Introduction to IoT - Cisco (Issued Aug 2023)</p>
-                <p>IBM Robotic Process Automation-Basic II - IBM (Issued Jul 2023)</p>
-                <p>Ethical Hacking Essentials - EC-Council (Issued Nov 2023)</p>
-                <p>CS50x Introduction to Computer Science - Harvard University</p>
-                <p>Cyber Security - Codewise Academy (Credential ID fa99fe7)</p>
-                <p>CS50 Introduction to Programming with Python - Harvard University</p>
-                <p>Azure AI Fundamental: Explore Computer Vision - Microsoft (Issued Oct 2023)</p>
-                <p>Azure AI Fundamental: Explore Natural Language Processing - Microsoft (Issued Oct 2023)</p>
-                <p>Data Science Tools - IBM (Issued Nov 2023)</p>
-                <p>Data Science Foundations: Level 1 - IBM (Issued Nov 2023)</p>
-                <p>Introduction to Digital Entrepreneurship - NEMISA (Issued Feb 2023)</p>
-                <p>AWS for Beginners - Great Learning (Issued Mar 2024)</p>
-                <p>CS50’s Introduction to Artificial Intelligence with Python (CS50AI) - Harvard University</p>
-                <a href="#_" class="close">Close</a>
-            </div>
-
-            <!-- Skills Section -->
-            <a href="#skills" class="category-link">Skills</a>
-            <div id="skills" class="details">
-                <p>Understanding of Fundamental AI Concepts</p>
-                <p>Machine Learning Principles</p>
-                <p>Knowledge Representation and Reasoning</p>
-                <p>Search Algorithms</p>
-                <p>Natural Language Processing (NLP)</p>
-                <p>Computer Vision</p>
-                <p>Probabilistic Models</p>
-                <p>Reinforcement Learning</p>
-                <p>Game Playing AI</p>
-                <p>Ethics and Society</p>
-                <a href="#_" class="close">Close</a>
-            </div>
+            <!-- Dynamic content areas for experience, education, etc. -->
         </div>
         <div class="image">
             <img src="c.jpg" alt="About Me">
-
         </div>
     </div>
 </section>
 
-
-
-
-
-
-
-
-
-</body>
-
-
-<footer class="site-footer">
-    <div class="container">
-        <!-- Column 1: Address, Email, and Social Media Links -->
-        <div class="footer-column">
-            <p>32A Devenish Street, Polokwane, Central</p>
-            <p>Email: <a href="mailto:elliot.sekgobela@gmail.com">elliot.sekgobela@gmail.com</a></p>
-            <!-- Social Media and Professional Links -->
-            <a href="https://linkedin.com/in/elliot-sekgobela-ab924819a" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="https://github.com/nkoebotse/fachilis" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+<footer class="site-footer bg-dark text-white mt-4">
+    <div class="container text-center py-5">
+        <div class="row">
+            <div class="col">
+                <p>32A Devenish Street, Polokwane, Central</p>
+                <p>Email: <a href="mailto:elliot.sekgobela@gmail.com" class="text-light">elliot.sekgobela@gmail.com</a></p>
+                <a href="https://linkedin.com/in/elliot-sekgobela-ab924819a" target="_blank" class="text-light"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/nkoebotse/fachilis" target="_blank" class="text-light"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+            <div class="col">
+                <a href="about.html" class="text-light">About</a>
+                <a href="contact.html" class="text-light">Contact Us</a>
+                <a href="Nkoebotse Elliot Sekgobela.pdf" download="Nkoebotse Elliot Sekgobela.pdf" class="btn btn-secondary">Download My Resume</a>
+            </div>
+            <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.102107880051!2d29.464819415029224!3d-23.904485984529307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6b45f58800001%3A0x66d618b3bd4b3fd!2sPolokwane%2C%20South%20Africa!5e0!3m2!1sen!2sus!4vINSERT_YOUR_UNIQUE_PART_HERE" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
-        
-        <!-- Column 2: Download Resume Button -->
-        <div class="footer-column">
-		<a href="#">About</a>
-            <a href="#">Home</a>
-            <a href="#">Contact Us</a>
-            <a href="Nkoebotse Elliot Sekgobela.pdf" download="Nkoebotse Elliot Sekgobela.pdf" class="resume-download-btn">Download My Resume</a>
-        </div>
-        
-        <!-- Column 3: Placeholder for Map or Additional Info -->
-        <div class="footer-column">
-    <!-- Embed Google Map for Polokwane -->
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.102107880051!2d29.464819415029224!3d-23.904485984529307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6b45f58800001%3A0x66d618b3bd4b3fd!2sPolokwane%2C%20South%20Africa!5e0!3m2!1sen!2sus!4vINSERT_YOUR_UNIQUE_PART_HERE"
-        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</div>
-
+    </div>
 </footer>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+</body>
 </html>
-
-
